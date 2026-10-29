@@ -51,7 +51,9 @@ Crie um projeto do tipo Win32 GUI Project, adicione o arquivo calculadora.c e co
 
 🧠 Como o código funciona
 Parte	Descrição
-WinMain	Ponto de entrada: registra a classe da janela, cria a janela principal e executa o laço de mensagens
+WinMain	Ponto de entrada:
+
+registra a classe da janela, cria a janela principal e executa o laço de mensagens
 WindowProcedure	Trata os eventos da janela (WM_CREATE, WM_COMMAND, WM_DESTROY)
 WM_CREATE	Cria todos os controles (rótulos, campos de texto e botões)
 WM_COMMAND	Identifica qual botão foi clicado através do ID e chama a função correspondente
